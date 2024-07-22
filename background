@@ -1,0 +1,47 @@
+git clone https://https://github.com/DongDaiDat/andanh.git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Với Nền Gradient</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .content {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <h1>Gửi cho mình tin nhắn ẩn danh nha!</h1>
+            <button>Nhận tin nhắn của riêng bạn!</button>
+        </div>
+    </div>
+</body>
+</html>
+git add .
+git commit -m "Initial commit"
+git push origin main
